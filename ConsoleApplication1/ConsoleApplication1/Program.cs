@@ -16,5 +16,9 @@ namespace ConsoleApplication1
         {
             return (a + b);
         }
+        public static void Diff(int a, int b)
+        {
+
+        }
     }
 }
