@@ -11,10 +11,15 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine(Add(7,8));
+            Console.WriteLine(Prod(2,8));
         }
         public static int Add(int a, int b)
         {
             return (a + b);
+        }
+        public static int Prod(int a, int b)
+        {
+            return (a * b);
         }
     }
 }
