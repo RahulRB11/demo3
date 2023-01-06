@@ -11,14 +11,15 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine(Add(7,8));
+            Console.WriteLine(Diff(5,1));
         }
         public static int Add(int a, int b)
         {
             return (a + b);
         }
-        public static void Diff(int a, int b)
+        public static int Diff(int a, int b)
         {
-
+            return (a - b);
         }
     }
 }
